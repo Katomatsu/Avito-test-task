@@ -5,7 +5,7 @@ import ReloadButton from '../UI/ReloadButton';
 const ErrorPage = () => {
   return (
 		<div>
-			<Link to='/' className='block mb-5'>
+			<Link to='/Avito-test-task' className='block mb-5'>
 				<ReloadButton>&#8592; Back to stories</ReloadButton>
 			</Link>
 			<ErrorMessage errorMessage='Page Not Found' />

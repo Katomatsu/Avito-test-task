@@ -21,7 +21,7 @@ const StoryItem = ({ title, date, by, score, kids, id, order }: NewsItemProps) =
 			<p className='text-[#828282] mr-1 font-bold'>{order + 1}.</p>
 			<div>
 				<h4 className='text-black'>
-					<Link to={`${id}`} className='font-medium'>
+					<Link to={`/Avito-test-task/${id}`} className='font-medium'>
 						{title}
 					</Link>
 				</h4>

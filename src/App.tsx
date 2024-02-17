@@ -10,16 +10,16 @@ import ErrorPage from './pages/404';
 function App() {
 	const router = createBrowserRouter([
 		{
-			path: '/',
+			path: '/Avito-test-task',
 			element: <MainPage />
 		},
 		{
-			path: ':storyId',
+			path: 'Avito-test-task/:storyId',
 			element: <DetailsPage />
 		},
 		{
 			path: '*',
-			element: <ErrorPage/>
+			element: <ErrorPage />
 		}
 	]);
 

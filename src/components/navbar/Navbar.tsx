@@ -8,7 +8,7 @@ interface NavbarProps {
 const Navbar = ({reloadHandler}: NavbarProps) => {
   return (
 		<nav className='flex justify-center items-center mb-5'>
-			<Link to='/' className='block mr-10'>
+			<Link to='/Avito-test-task' className='block mr-10'>
 				<ReloadButton>&#8592; Back to stories</ReloadButton>
 			</Link>
 			<ReloadButton action={reloadHandler}>

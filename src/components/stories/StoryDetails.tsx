@@ -22,7 +22,7 @@ const StoryDetails = () => {
 		const controller = new AbortController();
 		const signal = controller.signal;
 		if (storyId && isNaN(parseInt(storyId))) {
-      navigate('error')
+      navigate('/Avito-test-task/error');
 		} else if (storyId) {
 			dispatch(getStory(+storyId, signal));
 		}
@@ -44,7 +44,7 @@ const StoryDetails = () => {
 		content = (
 			<>
 				<nav className='flex justify-center items-center mb-5'>
-					<Link to='/' className='block mr-10'>
+					<Link to='/Avito-test-task' className='block mr-10'>
 						<ReloadButton>&#8592; Back to stories</ReloadButton>
 					</Link>
 					<ReloadButton action={reloadHandler}>
