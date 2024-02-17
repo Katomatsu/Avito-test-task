@@ -44,7 +44,7 @@ const StoryDetails = () => {
 		content = (
 			<>
 				<nav className='flex justify-center items-center mb-5'>
-					<Link to='/news' className='block mr-10'>
+					<Link to='/' className='block mr-10'>
 						<ReloadButton>&#8592; Back to stories</ReloadButton>
 					</Link>
 					<ReloadButton action={reloadHandler}>
