@@ -22,7 +22,7 @@ const StoryDetails = () => {
 		const controller = new AbortController();
 		const signal = controller.signal;
 		if (storyId && isNaN(parseInt(storyId))) {
-      navigate('/error')
+      navigate('error')
 		} else if (storyId) {
 			dispatch(getStory(+storyId, signal));
 		}

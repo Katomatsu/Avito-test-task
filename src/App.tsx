@@ -14,7 +14,7 @@ function App() {
 			element: <MainPage />
 		},
 		{
-			path: '/:storyId',
+			path: ':storyId',
 			element: <DetailsPage />
 		},
 		{
